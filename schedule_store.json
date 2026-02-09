@@ -1,0 +1,396 @@
+{
+  "timezone": "America/New_York",
+  "defaults": {
+    "arrive_early_min": 10,
+    "platform_buffer_min": 2
+  },
+  "home": {
+    "name": "Roosevelt Island (Manhattan-bound)",
+    "origin": {
+      "feed": "BDFM",
+      "stop_id": "B06N",
+      "walk_to_stop_min": 7
+    }
+  },
+  "classes": [
+    {
+      "name": "Mon 00:00 Night Systems",
+      "days": ["Mon"],
+      "start": "00:00",
+      "end": "01:30",
+      "location_name": "Times Sq–42 St (N/Q/R/W)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "NQRW",
+        "stop_id": "R16N",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Mon 02:00 Overnight Studio",
+      "days": ["Mon"],
+      "start": "02:00",
+      "end": "03:30",
+      "location_name": "14 St–Union Sq (4/5/6)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "123456",
+        "stop_id": "635N",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Mon 04:00 Dawn Lab",
+      "days": ["Mon"],
+      "start": "04:00",
+      "end": "05:30",
+      "location_name": "Lex Av/63 St area (BDFM)",
+      "arrive_early_min": 15,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "BDFM",
+        "stop_id": "B08N",
+        "walk_from_stop_min": 8
+      }
+    },
+    {
+      "name": "Mon 06:00 Early Crit",
+      "days": ["Mon"],
+      "start": "06:00",
+      "end": "07:30",
+      "location_name": "Times Sq–42 St (N/Q/R/W southbound)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "NQRW",
+        "stop_id": "R16S",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Mon 08:00 Morning Seminar",
+      "days": ["Mon"],
+      "start": "08:00",
+      "end": "09:30",
+      "location_name": "14 St–Union Sq (4/5/6 southbound)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "123456",
+        "stop_id": "635S",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Mon 10:00 Midmorning Workshop",
+      "days": ["Mon"],
+      "start": "10:00",
+      "end": "11:30",
+      "location_name": "Lex Av/63 St area (BDFM)",
+      "arrive_early_min": 15,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "BDFM",
+        "stop_id": "B08N",
+        "walk_from_stop_min": 8
+      }
+    },
+    {
+      "name": "Mon 12:00 Noon Studio",
+      "days": ["Mon"],
+      "start": "12:00",
+      "end": "13:30",
+      "location_name": "Times Sq–42 St (N/Q/R/W)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "NQRW",
+        "stop_id": "R16N",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Mon 14:00 Afternoon Lab",
+      "days": ["Mon"],
+      "start": "14:00",
+      "end": "15:30",
+      "location_name": "14 St–Union Sq (4/5/6)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "123456",
+        "stop_id": "635N",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Mon 16:00 Late Afternoon Crit",
+      "days": ["Mon"],
+      "start": "16:00",
+      "end": "17:30",
+      "location_name": "Lex Av/63 St area (BDFM)",
+      "arrive_early_min": 15,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "BDFM",
+        "stop_id": "B08N",
+        "walk_from_stop_min": 8
+      }
+    },
+    {
+      "name": "Mon 18:00 Evening Studio",
+      "days": ["Mon"],
+      "start": "18:00",
+      "end": "19:30",
+      "location_name": "Times Sq–42 St (N/Q/R/W southbound)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "NQRW",
+        "stop_id": "R16S",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Mon 20:00 Night Lab",
+      "days": ["Mon"],
+      "start": "20:00",
+      "end": "21:30",
+      "location_name": "14 St–Union Sq (4/5/6 southbound)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "123456",
+        "stop_id": "635S",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Mon 22:00 Late Seminar",
+      "days": ["Mon"],
+      "start": "22:00",
+      "end": "23:30",
+      "location_name": "Lex Av/63 St area (BDFM)",
+      "arrive_early_min": 15,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "BDFM",
+        "stop_id": "B08N",
+        "walk_from_stop_min": 8
+      }
+    },
+
+    {
+      "name": "Tue 00:00 Night Systems",
+      "days": ["Tue"],
+      "start": "00:00",
+      "end": "01:30",
+      "location_name": "14 St–Union Sq (4/5/6)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "123456",
+        "stop_id": "635N",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Tue 02:00 Overnight Studio",
+      "days": ["Tue"],
+      "start": "02:00",
+      "end": "03:30",
+      "location_name": "Lex Av/63 St area (BDFM)",
+      "arrive_early_min": 15,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "BDFM",
+        "stop_id": "B08N",
+        "walk_from_stop_min": 8
+      }
+    },
+    {
+      "name": "Tue 04:00 Dawn Lab",
+      "days": ["Tue"],
+      "start": "04:00",
+      "end": "05:30",
+      "location_name": "Times Sq–42 St (N/Q/R/W)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "NQRW",
+        "stop_id": "R16N",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Tue 06:00 Early Crit",
+      "days": ["Tue"],
+      "start": "06:00",
+      "end": "07:30",
+      "location_name": "14 St–Union Sq (4/5/6 southbound)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "123456",
+        "stop_id": "635S",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Tue 08:00 Morning Seminar",
+      "days": ["Tue"],
+      "start": "08:00",
+      "end": "09:30",
+      "location_name": "Times Sq–42 St (N/Q/R/W southbound)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "NQRW",
+        "stop_id": "R16S",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Tue 10:00 Midmorning Workshop",
+      "days": ["Tue"],
+      "start": "10:00",
+      "end": "11:30",
+      "location_name": "Lex Av/63 St area (BDFM)",
+      "arrive_early_min": 15,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "BDFM",
+        "stop_id": "B08N",
+        "walk_from_stop_min": 8
+      }
+    },
+    {
+      "name": "Tue 12:00 Noon Studio",
+      "days": ["Tue"],
+      "start": "12:00",
+      "end": "13:30",
+      "location_name": "14 St–Union Sq (4/5/6)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "123456",
+        "stop_id": "635N",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Tue 14:00 Afternoon Lab",
+      "days": ["Tue"],
+      "start": "14:00",
+      "end": "15:30",
+      "location_name": "Times Sq–42 St (N/Q/R/W)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "NQRW",
+        "stop_id": "R16N",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Tue 16:00 Late Afternoon Crit",
+      "days": ["Tue"],
+      "start": "16:00",
+      "end": "17:30",
+      "location_name": "Lex Av/63 St area (BDFM)",
+      "arrive_early_min": 15,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "BDFM",
+        "stop_id": "B08N",
+        "walk_from_stop_min": 8
+      }
+    },
+    {
+      "name": "Tue 18:00 Evening Studio",
+      "days": ["Tue"],
+      "start": "18:00",
+      "end": "19:30",
+      "location_name": "14 St–Union Sq (4/5/6 southbound)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "123456",
+        "stop_id": "635S",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Tue 20:00 Night Lab",
+      "days": ["Tue"],
+      "start": "20:00",
+      "end": "21:30",
+      "location_name": "Times Sq–42 St (N/Q/R/W southbound)",
+      "arrive_early_min": 10,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "NQRW",
+        "stop_id": "R16S",
+        "walk_from_stop_min": 6
+      }
+    },
+    {
+      "name": "Tue 22:00 Late Seminar",
+      "days": ["Tue"],
+      "start": "22:00",
+      "end": "23:30",
+      "location_name": "Lex Av/63 St area (BDFM)",
+      "arrive_early_min": 15,
+      "commute_mode": "nyc_subway",
+      "destination": {
+        "feed": "BDFM",
+        "stop_id": "B08N",
+        "walk_from_stop_min": 8
+      }
+    },
+    {
+    "name": "Sun 18:30 Evening Studio",
+    "days": ["Sun"],
+    "start": "18:30",
+    "end": "20:00",
+    "location_name": "Times Sq–42 St (N/Q/R/W southbound)",
+    "arrive_early_min": 10,
+    "commute_mode": "nyc_subway",
+    "destination": {
+      "feed": "NQRW",
+      "stop_id": "R16S",
+      "walk_from_stop_min": 6
+    }
+  },
+  {
+    "name": "Sun 20:00 Night Lab",
+    "days": ["Sun"],
+    "start": "20:00",
+    "end": "21:30",
+    "location_name": "14 St–Union Sq (4/5/6 southbound)",
+    "arrive_early_min": 10,
+    "commute_mode": "nyc_subway",
+    "destination": {
+      "feed": "123456",
+      "stop_id": "635S",
+      "walk_from_stop_min": 6
+    }
+  },
+  {
+    "name": "Sun 22:00 Late Seminar",
+    "days": ["Sun"],
+    "start": "22:00",
+    "end": "23:30",
+    "location_name": "Lex Av/63 St area (BDFM)",
+    "arrive_early_min": 15,
+    "commute_mode": "nyc_subway",
+    "destination": {
+      "feed": "BDFM",
+      "stop_id": "B08N",
+      "walk_from_stop_min": 8
+    }
+  }
+  ]
+}
